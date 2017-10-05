@@ -1,0 +1,187 @@
+/*
+    Your implementation
+*/
+*{box-sizing:border-box;margin: 0;padding:0;
+    font-size: 14px;
+    color: #565858;
+}
+h1,h2,h3{
+    color: #000;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    height: 890px;
+    background: url("../img/head.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #c7cdcd;
+    display: table!important;
+    width: 100%;
+    overflow: visible;
+}
+
+header img{
+    display: block;
+    padding: 85px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 56px;
+    margin: 0;
+    color: #c7cdcd;
+    font-weight: 100;
+}
+header .text>p{
+    font-size: 16px;
+    max-width: 620px;
+    margin: 32px auto;
+    color: #c7cdcd;
+    line-height: 24px;
+}
+
+form{
+    width: 380px;
+    height: 400px;
+    background: #fff;
+    margin: 70px auto;
+    padding: 40px;
+    text-align: left;
+    color: #000;
+}
+form h2{
+    text-align: center;
+margin-bottom: 25px;
+    font-size: 24px;
+}
+
+form p{
+    font-size: 14px;
+    color: #929394;
+    margin: 25px 0 10px;
+}
+
+form input[type=text]{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid black;
+}
+form input[type=submit] {
+    display: block;
+    background:#9c27b0 ;
+    color: #fff;
+    margin: 25px auto;
+    border:none;
+    text-align: center;
+    padding:18px 24px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+.more-info .info, .features .feature-list, .faq-list .faq-unit, .benefit{
+width: 50%;
+    float: left;
+padding: 30px;
+}
+
+.info img{
+    display: block;
+    margin: 0 auto;
+}
+.more-info,.features, .faq{display: table; padding: 70px 0;width: 100%}
+.more-info h1{
+    font-size: 36px;
+    line-height: 45px;
+}
+.more-info h2{
+    font-size: 20px;
+    margin: 25px 0;
+}
+.more-info p{
+   margin: 20px 0;
+    line-height: 24px;
+}
+.features{
+    padding: 70px 0;
+}
+.main-header, .main-description{
+   text-align: center;
+
+}
+.main-header{font-size: 34px}
+
+.main-description{
+    margin-bottom: 65px;
+}
+.features .main-description{
+    max-width: 420px;
+    margin: 0 auto;
+    line-height: 24px;
+    margin-bottom: 65px;
+}
+.feature-list{
+    list-style: none;
+padding: 65px 0;
+    display: table;
+}
+ul li{
+    background-image: url("../img/li.jpg") ;
+background-position: top left;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+ul li h3{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+ul li {
+    line-height: 24px;
+}
+.screenshots,footer,.row{
+    clear:both;
+}
+
+.screenshots img{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.faq-unit h3{
+    font-size: 20px;
+    margin-bottom:30px;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding: 60px;
+}
+
+@media (max-width: 1024px) {
+    .screenshots img{
+
+        width: 50%;
+    }
+
+}
+
+
+@media (max-width: 760px) {
+    .more-info .info, .features .feature-list, .faq-list .faq-unit, .benefit{
+        width: 100%;
+
+
+    }
+}
